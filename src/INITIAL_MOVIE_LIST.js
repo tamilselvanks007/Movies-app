@@ -1,0 +1,80 @@
+export const INITIAL_MOVIE_LIST = [
+  {
+    id: "100",
+    name: "RRR",
+    poster:
+      "https://stat2.bollywoodhungama.in/wp-content/uploads/2021/11/RRR-3.jpg",
+    rating: 8.8,
+    summary:
+      "A tale of two legendary revolutionaries and their journey far away from home. After their journey they return home to start fighting back against British colonialists in the 1920s.",
+    trailer: "https://www.youtube.com/embed/NgBoMJy386M",
+  },
+  {
+    id: "101",
+    name: "Iron man 2",
+    poster:
+      "https://i.pinimg.com/originals/7f/8e/a2/7f8ea23c8a328f492a2ab6ba5c16e18b.png",
+    rating: 7,
+    summary:
+      "With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands.",
+    trailer: "https://www.youtube.com/embed/BoohRoVA9WQ",
+  },
+  {
+    id: "102",
+    name: "No Country for Old Men",
+    poster:
+      "https://cdn.shopify.com/s/files/1/0969/9128/products/Movie_Poster_Art_-_No_Country_For_Old_Men_-_Tallenge_Hollywood_Poster_Co..._6118f7a6-8bf3-408a-bf0e-106dd8d920c1_large.jpg?v=1570001597",
+    rating: 8.1,
+    summary:
+      "A hunter's life takes a drastic turn when he discovers two million dollars while strolling through the aftermath of a drug deal. He is then pursued by a psychopathic killer who wants the money.",
+    trailer: "https://www.youtube.com/embed/38A__WT3-o0",
+  },
+  {
+    id: "103",
+    name: "Jai Bhim",
+    poster: "https://pbs.twimg.com/media/FDUKJccVIAgb7od.jpg",
+    rating: 8.8,
+    summary:
+      "A tribal woman and a righteous lawyer battle in court to unravel the mystery around the disappearance of her husband, who was picked up the police on a false case",
+    trailer: "https://www.youtube.com/embed/Gc6dEDnL8JA",
+  },
+  {
+    id: "104",
+    name: "The Avengers",
+    poster:
+      "https://m.media-amazon.com/images/I/61w-Bfz7UbL.jpghttps://www.themoviedb.org/t/p/original/qMxAmzGQO722q0UlssCOPhrXmvX.jpg",
+    rating: 8,
+    summary:
+      "Marvel's The Avengers (classified under the name Marvel Avengers\n Assemble in the United Kingdom and Ireland), or simply The Avengers, is\n a 2012 American superhero film based on the Marvel Comics superhero team\n of the same name.",
+    trailer: "https://www.youtube.com/embed/eOrNdBpGMv8",
+  },
+  {
+    id: "105",
+    name: "Interstellar",
+    poster:
+      "https://cdna.artstation.com/p/assets/images/images/023/819/008/large/courtney-autumn-martin-interstellar-trap-14colors-redo-web.jpg?1580427202",
+    rating: 8.6,
+    summary:
+      "When Earth becomes uninhabitable in the future, a farmer and ex-NASA\n pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team\n of researchers, to find a new planet for humans.",
+    trailer: "https://www.youtube.com/embed/zSWdZVtXT7E",
+  },
+  {
+    id: "106",
+    name: "Baahubali",
+    poster: "https://mediabrief.com/wp-content/uploads/2020/05/image002-1.jpg",
+    rating: 8,
+    summary:
+      "In the kingdom of Mahishmati, Shivudu falls in love with a young warrior woman. While trying to woo her, he learns about the conflict-ridden past of his family and his true legacy.",
+    trailer: "https://www.youtube.com/embed/sOEg_YZQsTI",
+  },
+  {
+    id: "107",
+    name: "Ratatouille",
+    poster:
+      "https://preview.redd.it/1y84dbedpzz21.jpg?auto=webp&s=e09c6e0ebe20906b91633f1437b8fd7e71c26ce4",
+    rating: 8,
+    summary:
+      "Remy, a rat, aspires to become a renowned French chef. However, he fails to realise that people despise rodents and will never enjoy a meal cooked by him.",
+    trailer: "https://www.youtube.com/embed/MhyUxppGBYo",
+  },
+];

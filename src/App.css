@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background-color: orange;
+}
+
+.movie-container {
+  width: 340px;
+  background-color: lightgray;
+  height: min-content;
+}
+
+.movie-poster {
+  width: 340px;
+  height: 500px;
+  object-fit: cover; /* Do not scale the image */
+}
+
+.movie-container:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.movie-specs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Bebas Neue", cursive;
+  color: orange;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.counter-container {
+  display: flex;
+  gap: 10px;
+}
+
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px;
+}
+
+.add-color-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 50px;
+}
+
+.welcome-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.msg-container {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://w.wallha.com/ws/1/vRs0PSJL.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.game-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+  border: 2px solid black;
+  font-size: 160px;
+  font-family: "Bebas Neue", cursive;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 492px;
+}
+
+.full-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.movie-detail-container {
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.movie-spec {
+  font-family: "Bebas Neue", cursive;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+Link,
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.movie-summary {
+  font-family: "Bebas Neue", cursive;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.edit-movie-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 16px;
+}
+
+.route-container {
+  margin: 20px;
+}
